@@ -4,7 +4,7 @@ void variables();
 
 int main() {
     printf("Hello world From Index --> \n");
-    printf("\" I Like Pizza\" - Thuta");
+    printf("\" I Like Pizza\" - Thuta \n");
 
     variables();
 
