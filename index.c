@@ -3,6 +3,8 @@
 void variables();
 void dataTypes();
 void formatSpecifiers();
+void constantsSample();
+void arithmeticOperators();
 
 int main() {
     printf("------>> Hello world From Index --> \n");
@@ -11,6 +13,8 @@ int main() {
     variables();
     dataTypes();
     formatSpecifiers();
+    constantsSample();
+    arithmeticOperators();
 
     return 0;
 }
