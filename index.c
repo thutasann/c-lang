@@ -2,6 +2,7 @@
 
 void variables();
 void dataTypes();
+void formatSpecifiers();
 
 int main() {
     printf("------>> Hello world From Index --> \n");
@@ -9,6 +10,7 @@ int main() {
 
     variables();
     dataTypes();
+    formatSpecifiers();
 
     return 0;
 }
