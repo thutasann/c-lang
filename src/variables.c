@@ -4,5 +4,5 @@ int myVariable = 42;
 
 void printVariable()
 {
-    printf("Variable value: %d\n", myVariable);
+    printf("(Updated) Variable value: %d\n", myVariable);
 }

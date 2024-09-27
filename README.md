@@ -19,5 +19,9 @@ gcc --v
 ## Compile Command
 
 ```bash
-gcc HelloWorld.c -o hello
+gcc index.c src/*.c -o index
+```
+
+```bash
+./index
 ```

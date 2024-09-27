@@ -18,13 +18,12 @@ jobs:
         uses: actions/checkout@v3
 
       # Install dependencies (if any)
-      # For Ubuntu, GCC is usually pre-installed, but just in case
       - name: Install GCC
         run: sudo apt-get update && sudo apt-get install build-essential -y
 
       # Compile the code
       - name: Compile C Program
-        run: gcc -o index index.c
+        run: gcc index.c src/*.c -o index
 
       # Run the compiled program
       - name: Run Program
