@@ -24,8 +24,8 @@ jobs:
 
       # Compile the code
       - name: Compile C Program
-        run: gcc -o hello HelloWorld.c
+        run: gcc -o index index.c
 
       # Run the compiled program
       - name: Run Program
-        run: ./hello
+        run: ./index
