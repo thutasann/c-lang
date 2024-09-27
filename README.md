@@ -25,3 +25,8 @@ gcc index.c src/*.c -o index
 ```bash
 ./index
 ```
+
+```bash
+clear && gcc index.c src/*.c -o index && ./index
+```
+

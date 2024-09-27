@@ -1,6 +1,10 @@
 #include <stdio.h>
 
+// Variables
 void variables() {
+
+    printf("\n------>> Variables");
+
     int x;
     x = 123;
     int y = x + 3;
