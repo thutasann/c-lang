@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-void printVariable()
-{
-    int myVariable = 42;
-    printf("\n Variable value: %d\n", myVariable);
+void variables() {
+    int x;
+    x = 123;
+    int y = 321;
+    printf("Y -> ", y);
 }

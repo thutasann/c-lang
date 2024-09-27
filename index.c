@@ -1,13 +1,12 @@
 #include <stdio.h>
 
-void printVariable();
+void variables();
 
-int main()
-{
+int main() {
     printf("Hello world From Index --> \n");
     printf("\" I Like Pizza\" - Thuta");
 
-    printVariable();
+    variables();
 
     return 0;
 }
