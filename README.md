@@ -15,3 +15,9 @@ clang --version
 ```bash
 gcc --v
 ```
+
+## Compile Command
+
+```bash
+gcc HelloWorld.c -o hello
+```
