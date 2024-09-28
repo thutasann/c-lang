@@ -14,9 +14,14 @@ void variables() {
     char grade = 'C';
     char name[] = "Bro"; // array of characters
 
+    int lucky = 23;
+
     printf("You are %d years old\n", age);
     printf("Hello %s\n", name);
     printf("Y Result is %d\n", y);
     printf("Your Average grade is %c\n", grade);
     printf("Your GPA is %f\n", gpa);
+
+    printf("Lucky value : %i \n", lucky);
+    printf("Lucky Address : %p\n", &lucky);
 }

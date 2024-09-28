@@ -24,6 +24,8 @@ void forLoops();
 void breakVsContinue();
 void arrayStructure();
 void printAnArray();
+void twoDArray();
+void garbageCollectSample();
 
 /**
     ## C language kickoff
@@ -37,6 +39,7 @@ int main() {
 
     variables();
     dataTypes();
+    garbageCollectSample();
     formatSpecifiers();
     constantsSample();
     arithmeticOperators();
@@ -59,6 +62,7 @@ int main() {
     breakVsContinue();
     arrayStructure();
     printAnArray();
+    twoDArray();
 
     return 0;
 }
