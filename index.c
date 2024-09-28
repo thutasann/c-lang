@@ -20,6 +20,7 @@ void stringMethods();
 void forLoops();
 // void whileLoops();
 // void doWhileLoop();
+// void nestedLoop();
 
 /**
     ## C language kickoff
@@ -51,6 +52,7 @@ int main() {
     forLoops();
     // whileLoops();
     // doWhileLoop();
+    // nestedLoop();
 
     return 0;
 }
