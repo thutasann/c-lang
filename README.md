@@ -29,3 +29,24 @@ gcc index.c src/*.c -o index
 ```bash
 clear && gcc index.c src/*.c -o index && ./index
 ```
+
+## vsCode Snippets
+
+```json
+"Print to console": {
+    "prefix": "clog",
+    "body": [
+        "printf(\"$1\");",
+        "$2"
+    ],
+    "description": "Log output to console"
+},
+
+"STD Include": {
+    "prefix": "cin",
+    "body": [
+        "#include <std$1>"
+    ],
+    "description": "Include standard input-output library"
+},
+```

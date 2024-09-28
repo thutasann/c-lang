@@ -14,7 +14,7 @@ void nestedLoop() {
     printf("\nEnter # of columns: ");
     scanf("%d", &columns);
 
-    scanf("%c");
+    // scanf("%c");
 
     printf("\nEnter a symbole to use: ");
     scanf("%c", &symbol);

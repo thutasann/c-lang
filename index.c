@@ -21,6 +21,7 @@ void forLoops();
 // void whileLoops();
 // void doWhileLoop();
 // void nestedLoop();
+void breakVsContinue();
 
 /**
     ## C language kickoff
@@ -53,6 +54,7 @@ int main() {
     // whileLoops();
     // doWhileLoop();
     // nestedLoop();
+    breakVsContinue();
 
     return 0;
 }
