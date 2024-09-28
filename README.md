@@ -1,6 +1,6 @@
 # C Progamming Language KickOff
 
-This is the repo where I start learning `C Programming Language`
+This is the repo where I start learning `C Programming Language`.
 
 ## Check GCC Compiler
 
@@ -29,4 +29,3 @@ gcc index.c src/*.c -o index
 ```bash
 clear && gcc index.c src/*.c -o index && ./index
 ```
-
