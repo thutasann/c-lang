@@ -3,6 +3,10 @@
         "*.mdx": "mdx",
         "*.jade": "jade",
         "stdio.h": "c",
-        "stdbool.h": "c"
+        "stdbool.h": "c",
+        "string.h": "c",
+        "cmath": "c",
+        "complex": "c",
+        "cstdlib": "c"
     }
 }

@@ -7,6 +7,7 @@ void constantsSample();
 void arithmeticOperators();
 void augmentedAssignmentOperators();
 // void userInput();
+void mathFunctions();
 
 int main() {
     printf("------>> Hello world From Index --> \n");
@@ -19,6 +20,7 @@ int main() {
     arithmeticOperators();
     augmentedAssignmentOperators();
     // userInput();
+    mathFunctions();
 
     return 0;
 }
