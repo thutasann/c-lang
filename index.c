@@ -13,6 +13,8 @@ void mathFunctions();
 void andLogicalOperator();
 void orLogicalOperator();
 void notLogicalOperator();
+void functions();
+void ternaryOperator();
 
 /**
     ## C language kickoff
@@ -37,6 +39,8 @@ int main() {
     andLogicalOperator();
     orLogicalOperator();
     notLogicalOperator();
+    functions();
+    ternaryOperator();
 
     return 0;
 }
