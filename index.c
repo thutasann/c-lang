@@ -16,6 +16,7 @@ void notLogicalOperator();
 void functions();
 void ternaryOperator();
 void functionPrototype(char name[], int age);
+void stringMethods();
 
 /**
     ## C language kickoff
@@ -43,6 +44,7 @@ int main() {
     functions();
     ternaryOperator();
     functionPrototype("Thuta", 22);
+    stringMethods();
 
     return 0;
 }
