@@ -17,6 +17,9 @@ void functions();
 void ternaryOperator();
 void functionPrototype(char name[], int age);
 void stringMethods();
+void forLoops();
+// void whileLoops();
+// void doWhileLoop();
 
 /**
     ## C language kickoff
@@ -45,6 +48,9 @@ int main() {
     ternaryOperator();
     functionPrototype("Thuta", 22);
     stringMethods();
+    forLoops();
+    // whileLoops();
+    // doWhileLoop();
 
     return 0;
 }
