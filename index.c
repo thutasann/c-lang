@@ -10,6 +10,9 @@ void augmentedAssignmentOperators();
 void mathFunctions();
 // void ifStmt();
 // void switchStatements();
+void andLogicalOperator();
+void orLogicalOperator();
+void notLogicalOperator();
 
 /**
     ## C language kickoff
@@ -31,6 +34,9 @@ int main() {
     mathFunctions();
     // ifStmt();
     // switchStatements();
+    andLogicalOperator();
+    orLogicalOperator();
+    notLogicalOperator();
 
     return 0;
 }
