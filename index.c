@@ -22,6 +22,8 @@ void forLoops();
 // void doWhileLoop();
 // void nestedLoop();
 void breakVsContinue();
+void arrayStructure();
+void printAnArray();
 
 /**
     ## C language kickoff
@@ -55,6 +57,8 @@ int main() {
     // doWhileLoop();
     // nestedLoop();
     breakVsContinue();
+    arrayStructure();
+    printAnArray();
 
     return 0;
 }
