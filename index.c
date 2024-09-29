@@ -26,6 +26,7 @@ void arrayStructure();
 void printAnArray();
 void twoDArray();
 void garbageCollectSample();
+void arrayOfStrings();
 
 /**
     ## C language kickoff
@@ -63,6 +64,7 @@ int main() {
     arrayStructure();
     printAnArray();
     twoDArray();
+    arrayOfStrings();
 
     return 0;
 }

@@ -3,7 +3,7 @@
 /**
     2 Dimensional Array needs to specify
     - maximum amount of arrays within two-dimensional array
-    - maximum size of elements withing each of these arrays
+    - maximum size of elements within each of these arrays
  */
 void twoDArray() {
     printf("\n------>> 2D Array \n");
