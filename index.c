@@ -27,6 +27,7 @@ void printAnArray();
 void twoDArray();
 void garbageCollectSample();
 void arrayOfStrings();
+void typeDef();
 
 /**
     ## C language kickoff
@@ -65,6 +66,7 @@ int main() {
     printAnArray();
     twoDArray();
     arrayOfStrings();
+    typeDef();
 
     return 0;
 }
