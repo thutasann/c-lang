@@ -28,6 +28,7 @@ void twoDArray();
 void garbageCollectSample();
 void arrayOfStrings();
 void typeDef();
+void enums();
 
 /**
     ## C language kickoff
@@ -67,6 +68,7 @@ int main() {
     twoDArray();
     arrayOfStrings();
     typeDef();
+    enums();
 
     return 0;
 }
