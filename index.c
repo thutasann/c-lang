@@ -30,6 +30,7 @@ void arrayOfStrings();
 void typeDef();
 void enums();
 void randomNumbers();
+void pointerSample();
 
 /**
     ## C language kickoff
@@ -71,6 +72,7 @@ int main() {
     typeDef();
     enums();
     randomNumbers();
+    pointerSample();
 
     return 0;
 }
