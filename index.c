@@ -29,6 +29,7 @@ void garbageCollectSample();
 void arrayOfStrings();
 void typeDef();
 void enums();
+void randomNumbers();
 
 /**
     ## C language kickoff
@@ -69,6 +70,7 @@ int main() {
     arrayOfStrings();
     typeDef();
     enums();
+    randomNumbers();
 
     return 0;
 }

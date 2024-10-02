@@ -9,6 +9,11 @@
         "complex": "c",
         "cstdlib": "c",
         "__locale": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "__availability": "c",
+        "__config": "c",
+        "ctime": "c",
+        "locale": "c",
+        "algorithm": "c"
     }
 }
