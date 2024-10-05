@@ -30,7 +30,6 @@ void arrayOfStrings();
 void typeDef();
 void enums();
 void randomNumbers();
-void pointerSample();
 void bitWiseOperators();
 
 /**
@@ -73,7 +72,6 @@ int main() {
     typeDef();
     enums();
     randomNumbers();
-    pointerSample();
     bitWiseOperators();
 
     return 0;
