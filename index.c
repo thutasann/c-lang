@@ -31,6 +31,7 @@ void typeDef();
 void enums();
 void randomNumbers();
 void pointerSample();
+void bitWiseOperators();
 
 /**
     ## C language kickoff
@@ -73,6 +74,7 @@ int main() {
     enums();
     randomNumbers();
     pointerSample();
+    bitWiseOperators();
 
     return 0;
 }
