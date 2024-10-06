@@ -1,6 +1,11 @@
-# C Progamming Language KickOff
+# C Progamming Language
 
 This is the repo where I start learning `C Programming Language`.
+
+## Topics
+
+- C Basic
+- Data Structure and Algorithms
 
 ## Check GCC Compiler
 
