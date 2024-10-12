@@ -4,8 +4,13 @@ This is the repo where I start learning `C Programming Language`.
 
 ## Topics
 
-- C Basic
-- Data Structure and Algorithms
+| Topic           | Source                                     |
+| --------------- | ------------------------------------------ |
+| C Basics        | [Basics](./src)                            |
+| Data Structures | [Data Structures](./src/data-structures)   |
+| C Examples      | [C Examples](./src/c-programming-examples) |
+| Programs        | [Programs](./src/programs)                 |
+| Memory Relateds | [Programs](./src/memory-relateds)          |
 
 ## Check GCC Compiler
 
