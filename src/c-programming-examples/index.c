@@ -7,6 +7,7 @@ void reverse_an_array(void);
 void is_string_palindrome(void);
 void sum_values_in_array(void);
 void compute_average_in_array(void);
+void counting_vowels(void);
 
 // C Programming Langauge Samples
 int main() {
@@ -20,6 +21,7 @@ int main() {
     is_string_palindrome();
     sum_values_in_array();
     compute_average_in_array();
+    counting_vowels();
 
     return 0;
 }
