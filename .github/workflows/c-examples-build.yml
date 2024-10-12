@@ -1,4 +1,4 @@
-name: C Build Workflow
+name: C Examples Build Workflow
 
 on:
   push:
