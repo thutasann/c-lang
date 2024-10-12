@@ -4,6 +4,7 @@ void find_min(void);
 void find_max(void);
 void count_occurences(void);
 void reverse_an_array(void);
+void is_string_palindrome(void);
 
 // C Programming Langauge Samples
 int main() {
@@ -14,6 +15,7 @@ int main() {
     find_max();
     count_occurences();
     reverse_an_array();
+    is_string_palindrome();
 
     return 0;
 }
