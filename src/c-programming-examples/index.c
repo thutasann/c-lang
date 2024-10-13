@@ -9,6 +9,7 @@ void sum_values_in_array(void);
 void compute_average_in_array(void);
 void counting_vowels(void);
 void string_append_concat(void);
+void dice_roll(void);
 
 // C Programming Langauge Samples
 int main() {
@@ -24,6 +25,7 @@ int main() {
     compute_average_in_array();
     counting_vowels();
     string_append_concat();
+    dice_roll();
 
     return 0;
 }
