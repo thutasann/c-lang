@@ -22,6 +22,9 @@ void copy_an_array() {
     for (int i = 0; i < a1_length; i++) {
         printf("a1_copy[%d]=%d\n", i, a1_copy[i]);
     }
+
+    printf("a1 pointer : %p\n", a1);
+    printf("a1_copy pointer : %p\n", a1_copy);
 }
 
 // copy fn to return a pointer to the copy of the array
