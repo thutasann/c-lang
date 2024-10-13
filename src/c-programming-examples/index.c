@@ -13,6 +13,8 @@ void dice_roll(void);
 void flip_string_lowercase(void);
 void copy_an_array(void);
 void is_leap_year(void);
+void vector_calculation(void);
+void dot_product_calculation(void);
 
 // C Programming Langauge Samples
 int main() {
@@ -32,6 +34,8 @@ int main() {
     flip_string_lowercase();
     copy_an_array();
     is_leap_year();
+    vector_calculation();
+    dot_product_calculation();
 
     return 0;
 }
