@@ -8,6 +8,7 @@ void is_string_palindrome(void);
 void sum_values_in_array(void);
 void compute_average_in_array(void);
 void counting_vowels(void);
+void string_append_concat(void);
 
 // C Programming Langauge Samples
 int main() {
@@ -22,6 +23,7 @@ int main() {
     sum_values_in_array();
     compute_average_in_array();
     counting_vowels();
+    string_append_concat();
 
     return 0;
 }
