@@ -15,6 +15,7 @@ void copy_an_array(void);
 void is_leap_year(void);
 void vector_calculation(void);
 void dot_product_calculation(void);
+void count_occurrences_string(void);
 
 // C Programming Langauge Samples
 int main() {
@@ -36,6 +37,7 @@ int main() {
     is_leap_year();
     vector_calculation();
     dot_product_calculation();
+    count_occurrences_string();
 
     return 0;
 }
