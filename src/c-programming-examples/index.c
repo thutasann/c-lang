@@ -16,6 +16,7 @@ void is_leap_year(void);
 void vector_calculation(void);
 void dot_product_calculation(void);
 void count_occurrences_string(void);
+void remove_occurrences(void);
 
 // C Programming Langauge Samples
 int main() {
@@ -38,6 +39,7 @@ int main() {
     vector_calculation();
     dot_product_calculation();
     count_occurrences_string();
+    remove_occurrences();
 
     return 0;
 }
