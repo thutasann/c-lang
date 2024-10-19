@@ -3,6 +3,7 @@
 
 void allocating_memory_for_integer(void);
 void allocating_memory_array_of_integers(void);
+void reserving_hotel_room(void);
 
 /**
     ### Malloc Method
@@ -21,6 +22,7 @@ int main(void) {
 
     allocating_memory_for_integer();
     allocating_memory_array_of_integers();
+    reserving_hotel_room();
 
     return 0;
 }
@@ -70,4 +72,33 @@ void allocating_memory_array_of_integers() {
     }
 
     free(arr);
+}
+
+/**
+    ## Reserving Hotel Room
+    - Think of malloc() as reserving a hotel room
+    - You ask for a room (a block of memory), and the hotel (the system) provides you with a room key (the memory address).
+    - You then use that key to store your belongings (data) in the room.
+    - When you no longer need the room (data), you check out (free the memory) so that someone else can use the room.
+ */
+void reserving_hotel_room() {
+    printf("\n------>> Reserving Hotel Room\n");
+
+    int length;
+    printf("Enter the length of your name: ");
+    scanf("%d", &length);
+
+    char *name = (char *)malloc(length * sizeof(char));
+
+    if (name == NULL) {
+        printf("Memory allocation failed!\n");
+        return;
+    }
+
+    printf("Enter your name: ");
+    scanf("%s", name);
+
+    printf("Hello, %s\n", name);
+
+    free(name);
 }
