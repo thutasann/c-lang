@@ -18,6 +18,10 @@ void dot_product_calculation(void);
 void count_occurrences_string(void);
 void remove_occurrences(void);
 void convert_binary_decimal(void);
+void replace_char_with_another(void);
+void binary_sample(void);
+void binary_data_and_files(void);
+void bitwise_operators(void);
 
 // C Programming Langauge Samples
 int main() {
@@ -42,6 +46,10 @@ int main() {
     count_occurrences_string();
     remove_occurrences();
     convert_binary_decimal();
+    binary_sample();
+    replace_char_with_another();
+    binary_data_and_files();
+    bitwise_operators();
 
     return 0;
 }
