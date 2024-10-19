@@ -17,6 +17,7 @@ void vector_calculation(void);
 void dot_product_calculation(void);
 void count_occurrences_string(void);
 void remove_occurrences(void);
+void convert_binary_decimal(void);
 
 // C Programming Langauge Samples
 int main() {
@@ -40,6 +41,7 @@ int main() {
     dot_product_calculation();
     count_occurrences_string();
     remove_occurrences();
+    convert_binary_decimal();
 
     return 0;
 }
