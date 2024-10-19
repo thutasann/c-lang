@@ -22,6 +22,8 @@ void replace_char_with_another(void);
 void binary_sample(void);
 void binary_data_and_files(void);
 void bitwise_operators(void);
+void identifier_keyword(void);
+void marcos_with_parameters(void);
 
 // C Programming Langauge Samples
 int main() {
@@ -50,6 +52,8 @@ int main() {
     replace_char_with_another();
     binary_data_and_files();
     bitwise_operators();
+    identifier_keyword();
+    marcos_with_parameters();
 
     return 0;
 }
