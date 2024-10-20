@@ -1,16 +1,17 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 void pointer_basic_usage(void);
 void array_traversal(void);
 void using_pointers_with_functions(void);
+void dynamic_memory_allocation(void);
 
 // pointer samples
 int main() {
-
     pointer_basic_usage();
     array_traversal();
     using_pointers_with_functions();
-
+    dynamic_memory_allocation();
     return 0;
 }
 
@@ -57,4 +58,22 @@ void using_pointers_with_functions() {
     increment(&num); // passing address of num to that function
 
     printf("After: %d\n", num);
+}
+
+/** Dynamic Memory Allocation */
+void dynamic_memory_allocation() {
+    printf("\n------>> Dynamic Memory Allocation\n");
+
+    int *p = (int *)malloc(sizeof(int));
+
+    if (p == NULL) {
+        printf("Memory Allocation Failed!\n");
+        exit(1);
+    }
+
+    *p = 42;
+
+    printf("Dynamically allocated value: %d\n", *p);
+
+    free(p);
 }
