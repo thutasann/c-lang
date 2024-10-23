@@ -9,6 +9,7 @@ This is the repo where I start learning `C Programming Language`.
 | C Basics        | [Basics](./src)                            |
 | Data Structures | [Data Structures](./src/data-structures)   |
 | C Examples      | [C Examples](./src/c-programming-examples) |
+| C Pointers      | [C Examples](./src/c-pointers) |
 | Programs        | [Programs](./src/programs)                 |
 | Memory Relateds | [Programs](./src/memory-relateds)          |
 
