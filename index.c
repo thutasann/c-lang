@@ -31,6 +31,7 @@ void typeDef();
 void enums();
 void randomNumbers();
 void bitWiseOperators();
+void signed_unsigned_data_types();
 
 /**
     ## C language kickoff
@@ -73,6 +74,7 @@ int main() {
     enums();
     randomNumbers();
     bitWiseOperators();
+    signed_unsigned_data_types();
 
     return 0;
 }
