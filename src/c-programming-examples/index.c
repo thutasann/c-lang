@@ -24,6 +24,7 @@ void binary_data_and_files(void);
 void bitwise_operators(void);
 void identifier_keyword(void);
 void marcos_with_parameters(void);
+void size_t_sample(void);
 
 // C Programming Langauge Samples
 int main() {
@@ -54,6 +55,7 @@ int main() {
     bitwise_operators();
     identifier_keyword();
     marcos_with_parameters();
+    size_t_sample();
 
     return 0;
 }
