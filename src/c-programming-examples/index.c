@@ -25,6 +25,8 @@ void bitwise_operators(void);
 void identifier_keyword(void);
 void marcos_with_parameters(void);
 void size_t_sample(void);
+void remove_all_vowels_from_string(void);
+void is_arrays_disjoint(void);
 
 // C Programming Langauge Samples
 int main() {
@@ -56,6 +58,8 @@ int main() {
     identifier_keyword();
     marcos_with_parameters();
     size_t_sample();
+    remove_all_vowels_from_string();
+    is_arrays_disjoint();
 
     return 0;
 }

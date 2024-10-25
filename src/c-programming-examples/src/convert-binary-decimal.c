@@ -12,7 +12,6 @@ int convert(char *string);
     - result -> 21
  */
 void convert_binary_decimal() {
-
     printf("\n------>> Convert Binary to Decimal\n");
 
     char s1[] = "10101";
