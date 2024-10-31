@@ -27,6 +27,8 @@ void marcos_with_parameters(void);
 void size_t_sample(void);
 void remove_all_vowels_from_string(void);
 void is_arrays_disjoint(void);
+void rotate_array_left(void);
+void rotate_array_right(void);
 
 // C Programming Langauge Samples
 int main() {
@@ -60,6 +62,8 @@ int main() {
     size_t_sample();
     remove_all_vowels_from_string();
     is_arrays_disjoint();
+    rotate_array_left();
+    rotate_array_right();
 
     return 0;
 }
