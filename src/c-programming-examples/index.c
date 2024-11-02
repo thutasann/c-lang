@@ -29,6 +29,7 @@ void remove_all_vowels_from_string(void);
 void is_arrays_disjoint(void);
 void rotate_array_left(void);
 void rotate_array_right(void);
+void merge_two_sorted_arrays(void);
 
 // C Programming Langauge Samples
 int main() {
@@ -64,6 +65,7 @@ int main() {
     is_arrays_disjoint();
     rotate_array_left();
     rotate_array_right();
+    merge_two_sorted_arrays();
 
     return 0;
 }
