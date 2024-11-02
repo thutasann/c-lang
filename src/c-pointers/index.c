@@ -10,6 +10,7 @@ void pointer_arithmetic_addition(void);
 void pointer_arithmetic_subtraction(void);
 void pointer_arithmetic_increment(void);
 void pointer_arithmetic_drecrement(void);
+void int_pointer_array(void);
 
 int main(void) {
     printf("\nPOINTER IN C\n");
@@ -24,6 +25,7 @@ int main(void) {
     pointer_arithmetic_subtraction();
     pointer_arithmetic_increment();
     pointer_arithmetic_drecrement();
+    int_pointer_array();
 
     return 0;
 }
