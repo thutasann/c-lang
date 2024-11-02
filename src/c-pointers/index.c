@@ -4,6 +4,7 @@ void variable_pointers(void);
 void value_of_operator(void);
 void pointer_assignment(void);
 void min_max_in_array(void);
+void returing_pointers(void);
 
 int main(void) {
     printf("\nPOINTER IN C\n");
@@ -12,6 +13,7 @@ int main(void) {
     value_of_operator();
     pointer_assignment();
     min_max_in_array();
+    returing_pointers();
 
     return 0;
 }
