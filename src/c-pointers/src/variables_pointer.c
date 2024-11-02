@@ -19,7 +19,7 @@ void pointer_assign(void);
     - one way to initialize a pointer is to assign address of some variable.
  */
 void variable_pointers(void) {
-    printf("\n------>> Merge two sorted arrays\n");
+    printf("\n------>> Variable pointers\n");
 
     pointer_types();
     pointer_assign();
@@ -40,6 +40,7 @@ void pointer_types(void) {
     ## Pointer assign
     - & means `address of opeartor`
     - assign the address of variable `x` to the pointer variable
+    - pointer variable can point now to the variable `x`
     - with the help of it, we can assign the integer address to the pointer variable
     - this means that we can now point to this particular location where the value 5 is stored.
  */
