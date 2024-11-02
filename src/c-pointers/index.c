@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-void test(void);
+void variable_pointers(void);
 
 int main(void) {
     printf("\nPOINTER IN C\n");
-    test();
+
+    variable_pointers();
     return 0;
 }
