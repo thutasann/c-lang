@@ -6,6 +6,7 @@ void pointer_assignment(void);
 void min_max_in_array(void);
 void returing_pointers(void);
 void important_questions(void);
+void pointer_arithmetic_addition(void);
 
 int main(void) {
     printf("\nPOINTER IN C\n");
@@ -16,6 +17,7 @@ int main(void) {
     min_max_in_array();
     returing_pointers();
     important_questions();
+    pointer_arithmetic_addition();
 
     return 0;
 }
