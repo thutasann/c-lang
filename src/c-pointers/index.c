@@ -11,6 +11,8 @@ void pointer_arithmetic_subtraction(void);
 void pointer_arithmetic_increment(void);
 void pointer_arithmetic_drecrement(void);
 void int_pointer_array(void);
+void void_pointers_samples(void);
+void generic_linked_list(void);
 
 int main(void) {
     printf("\nPOINTER IN C\n");
@@ -26,6 +28,8 @@ int main(void) {
     pointer_arithmetic_increment();
     pointer_arithmetic_drecrement();
     int_pointer_array();
+    void_pointers_samples();
+    generic_linked_list();
 
     return 0;
 }
