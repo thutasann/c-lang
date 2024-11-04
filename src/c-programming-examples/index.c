@@ -30,6 +30,8 @@ void is_arrays_disjoint(void);
 void rotate_array_left(void);
 void rotate_array_right(void);
 void merge_two_sorted_arrays(void);
+void count_non_repeating_array_elements(void);
+void manually_find_length_of_string(void);
 
 // C Programming Langauge Samples
 int main() {
@@ -66,6 +68,8 @@ int main() {
     rotate_array_left();
     rotate_array_right();
     merge_two_sorted_arrays();
+    count_non_repeating_array_elements();
+    manually_find_length_of_string();
 
     return 0;
 }
