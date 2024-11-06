@@ -32,6 +32,7 @@ void rotate_array_right(void);
 void merge_two_sorted_arrays(void);
 void count_non_repeating_array_elements(void);
 void manually_find_length_of_string(void);
+void bubble_sort(void);
 
 // C Programming Langauge Samples
 int main() {
@@ -70,6 +71,7 @@ int main() {
     merge_two_sorted_arrays();
     count_non_repeating_array_elements();
     manually_find_length_of_string();
+    bubble_sort();
 
     return 0;
 }
